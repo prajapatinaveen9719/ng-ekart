@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { OneWayStringInterpolationComponent } from './one-way-string-interpolation/one-way-string-interpolation.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     HeaderComponent,
     FooterComponent,
     OneWayStringInterpolationComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
