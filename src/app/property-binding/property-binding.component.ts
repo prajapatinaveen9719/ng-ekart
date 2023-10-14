@@ -12,5 +12,7 @@ export class PropertyBindingComponent {
 
   inputValue2:string='Value property using interpolation binding of input tag'
 
+  textBoxValue:string=''
+
 
 }

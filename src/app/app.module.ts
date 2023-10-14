@@ -9,6 +9,7 @@ import { OneWayStringInterpolationComponent } from './one-way-string-interpolati
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { ngdirectives } from './ngdirectives/ngdirectives.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ngdirectives } from './ngdirectives/ngdirectives.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

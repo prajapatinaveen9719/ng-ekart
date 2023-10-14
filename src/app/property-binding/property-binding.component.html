@@ -1,5 +1,5 @@
 
-<h2>Property binding</h2>
+<h1>/*********************************One way property binding********************************/</h1>
 
 <p [hidden]='ishidden'>Hidden elements using property binding</p>
 
@@ -9,3 +9,12 @@
 <br>
 
 <input value={{inputValue2}} hidden={{ishidden}}/>
+
+
+<h1>/*********************************Two way binding using ngModel********************************/</h1>
+
+<div>
+<label>Type text here</label>
+<input type="text"  id="txtname" [(ngModel)]="textBoxValue" />
+</div>
+Your Text : <span>{{textBoxValue}}</span>
