@@ -1,0 +1,26 @@
+<h1>/*********************************ngIf directive********************************/</h1>
+
+<label *ngIf="isHeadingVisible;else elseBlock">This heading is visible using *ngIf</label>
+
+<ng-template #elseBlock>Else block of *ngIf</ng-template>
+<br>
+<label #elseBlock>Else block of *ngIf</label>
+
+
+<h1>/*********************************ngFor directive of int array********************************/</h1>
+
+<div *ngFor="let item of [1,2,3,4,5,6]">
+    <span>{{item}}</span>
+</div>
+
+<h1>/*********************************ngFor directive of string array********************************/</h1>
+<div *ngFor="let item of ['OM','Mahadev','Shivaay','Shankar','NeelKanth']">
+    <span>{{item}}</span>
+</div>
+
+<h1>/*********************************ngFor directive of array of objects*********************/</h1>
+<div *ngFor="let item of Products">
+    Name:<span>{{item.Name}}</span>
+    <br>
+    Price : <span>{{item.Price}}</span>
+</div>

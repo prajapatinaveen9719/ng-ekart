@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { OneWayStringInterpolationComponent } from './one-way-string-interpolation/one-way-string-interpolation.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { ngdirectives } from './ngdirectives/ngdirectives.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     FooterComponent,
     OneWayStringInterpolationComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    ngdirectives
   ],
   imports: [
     BrowserModule,
