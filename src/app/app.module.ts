@@ -10,6 +10,10 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { ngdirectives } from './ngdirectives/ngdirectives.component';
 import { FormsModule } from '@angular/forms';
+import { ParentComponent } from './parent-to-child/parent/parent.component';
+import { ChildComponent } from './parent-to-child/child/child.component';
+import { ParentCtpComponent } from './child-to-parent/parent-ctp/parent-ctp.component';
+import { ChildCtpComponent } from './child-to-parent/child-ctp/child-ctp.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +23,12 @@ import { FormsModule } from '@angular/forms';
     OneWayStringInterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    ngdirectives
-  ],
+    ngdirectives,
+    ParentComponent,
+    ChildComponent,
+    ParentCtpComponent,
+    ChildCtpComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
